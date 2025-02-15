@@ -23,6 +23,7 @@ function handleEvent() {
      const inputFieldArea =inputArea.value;
     const para =document.getElementById('document');
     para.innerText=inputFieldArea;
+    inputArea.value ='';
    
 })
 
